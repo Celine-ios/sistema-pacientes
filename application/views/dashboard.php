@@ -23,7 +23,9 @@
 	<hr style="border: 0.5px solid #ddd; width: 80%;">
 	<section>
 		<div style="display: flex;justify-content: center;">
-			<button class="btn btn-success" type="button">Agregar Paciente</button>
+			<a href="add">
+				<button class="btn btn-success" type="button">Agregar Paciente</button>
+			</a>
 		</div>
 		<?php 
 		if (isset($nombres)) {
