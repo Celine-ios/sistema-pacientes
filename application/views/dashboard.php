@@ -45,6 +45,7 @@
 			<li>Tensión Arterial: '.$tension_arterial.'</li>
 			<li>Saturación de Oxígeno: '.$saturacion_oxigeno.'</li>
 			<li>Tratamiento: '.$tratamiento.'</li>
+			<li>Fecha: '.$fecha.'</li>
 		</ul>
 		<br/>
 		<div class="container" style="margin-left: 2%;">

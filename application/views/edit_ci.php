@@ -80,9 +80,13 @@
 		</div>
 		</div>
 		<div class="row">
-			<div class="col-sm-8">
+			<div class="col-sm-4">
 				<label for="tratamiento">Tratamiento</label>
 				<input type="text" name="tratamiento" class="form-control" value="<?php echo $tratamiento;?>">
+			</div>
+			<div class="col-sm-4">
+				<label for="fecha">Fecha</label>
+				<input type="text" name="fecha" class="form-control" value="<?php echo date('Y-m-d');?>">
 			</div>
 		</div>
 		<br>

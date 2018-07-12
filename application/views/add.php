@@ -104,6 +104,12 @@
 				<span style="color: var(--red);"><?php echo form_error('ci'); ?></span>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-sm-8">
+				<label for="fecha">Fecha</label>
+				<input type="text" name="fecha" class="form-control" value="<?php echo date('Y-m-d');?>">
+			</div>
+		</div>
 		<br>
 		<div class="row" style="display: flex;justify-content: center;">
 			<div class="col-sm-8" style="margin-left: 24%;">

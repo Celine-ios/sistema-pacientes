@@ -29,23 +29,23 @@
 					pacientes(nombres, apellidos,
 					 fecha_nacimiento, direccion, motivo_consulta, 
 					 enfermedad_actual, antecedentes_familiares, antecedentes_personales, inmunizaciones, peso, 
-					 talla, cc, tension_arterial, saturacion_oxigeno, tratamiento, cedula)
+					 talla, cc, tension_arterial, saturacion_oxigeno, tratamiento, cedula, fecha)
 					  VALUES("'.$this->input->post('nombres').'",
 					   "'.$this->input->post('apellidos').'",
 					   "'.$this->input->post('fecha_nacimiento').'",
 					   "'.$this->input->post('direccion').'",
 					   "'.$this->input->post('motivo_consulta').'",
 					   "'.$this->input->post('enfermedad_actual').'",
-					   "'.$this->input->post('antecedentes_familares').'",
+					   "'.$this->input->post('antecedentes_familiares').'",
 					   "'.$this->input->post('antecedentes_personales').'",
-					    '.$this->input->post('inmunizaciones').',
+					    "'.$this->input->post('inmunizaciones').'",
 					    '.$this->input->post('peso').',
 					    '.$this->input->post('talla').',
 					    '.$this->input->post('cc').',
 					    '.$this->input->post('tension_arterial').',
 					    '.$this->input->post('saturacion_oxigeno').',
 					   "'.$this->input->post('tratamiento').'",
-					    '.$this->input->post('ci').')');
+					    '.$this->input->post('ci').',"'.$this->input->post('fecha').'");');
 				
 							$this->load->view('success_add');
 			}
