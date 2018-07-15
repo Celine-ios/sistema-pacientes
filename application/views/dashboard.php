@@ -55,6 +55,12 @@
 		</div>
 		';
 		echo $html;
+		} else {
+			if (isset($info)) {
+			echo '<div class="container" style="text-align: center;margin-top: 10%;">
+			<span style="color: red;">No existe un paciente Registrado con éste número de Cédula</span>
+		</div>';
+			}
 		}
 		?>
 	</section>
